@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Events, hackathons, and community learning experiences for Nicanor Peril." />
+  <title>Events | Nicanor Peril</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700&display=swap" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+<body class="sub_page">
+  <div class="hero_area compact-hero">
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand empty-brand" href="index.html" aria-label="Home"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link pl-0" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+              <li class="nav-item active"><a class="nav-link" href="events.html">Events</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="container page-heading compact-page-heading">
+      <p class="eyebrow">Events</p>
+      <h1>Learning in public through hackathons, workshops, and community projects.</h1>
+    </div>
+  </div>
+
+  <main>
+    <section class="events-section event-story-section layout_padding">
+      <div class="container">
+        <article class="event-story">
+          <div class="event-story-copy">
+            <p class="eyebrow">Hackathon | MAY 4, 2026</p>
+            <h2>AI for Impact Hackathon</h2>
+            <p>
+              Our team built an AI growth engine for Vitality Bowls Stamford, focused on helping the owner turn catering interest
+              into repeat business with prospect scoring, generated outreach, approval workflows, and a practical roadmap for future
+              customer data tracking.
+            </p>
+            <div class="event-brand-lockup" aria-label="Vitality Bowls project">
+              <img src="assets/events/vitality-bowls-logo.png" alt="Vitality Bowls logo" />
+              <span>Vitality Bowls Stamford AI Growth Engine</span>
+            </div>
+            <a class="primary-btn" href="https://github.com/nicolous-peril/vitality-bowls">Product repo in GitHub</a>
+          </div>
+          <div class="event-main-photo">
+            <img src="assets/events/hackathon/hackathon-main.jpg" alt="AI for Impact Hackathon winning team" />
+          </div>
+        </article>
+
+        <div class="event-gallery">
+          <div class="strand-heading">
+            <h3>Hackathon Gallery</h3>
+            <div class="strand-tools">
+              <button class="carousel-button" type="button" data-scroll-target="hackathonGallery" data-scroll-direction="-1" aria-label="Previous hackathon photo">&lt;</button>
+              <button class="carousel-button" type="button" data-scroll-target="hackathonGallery" data-scroll-direction="1" aria-label="Next hackathon photo">&gt;</button>
+            </div>
+          </div>
+          <div class="event-carousel-track" id="hackathonGallery">
+            <img src="assets/events/hackathon/hackathon-gallery-1.jpg" alt="Hackathon room collaboration" />
+            <img src="assets/events/hackathon/hackathon-gallery-2.jpg" alt="Hackathon team presentation" />
+            <img src="assets/events/hackathon/hackathon-gallery-3.jpg" alt="Hackathon networking conversation" />
+            <img src="assets/events/hackathon/hackathon-gallery-4.jpg" alt="Hackathon team portrait" />
+            <img src="assets/events/hackathon/hackathon-gallery-5.jpg" alt="Hackathon presentation discussion" />
+            <img src="assets/events/hackathon/hackathon-gallery-6.jpg" alt="Hackathon award team photo" />
+            <img src="assets/events/hackathon/hackathon-gallery-7.jpg" alt="Hackathon product demo" />
+            <img src="assets/events/hackathon/hackathon-gallery-8.jpg" alt="Hackathon team and mentors" />
+          </div>
+        </div>
+
+        <article class="event-story devday-story">
+          <div class="event-story-copy">
+            <p class="eyebrow">GitHub + Microsoft | MAY 20, 2026</p>
+            <h2>Agentic DevDay NYC</h2>
+            <p>
+              Attended GitHub + Microsoft Agentic DevDay NYC to learn how developers are using AI agents, GitHub workflows,
+              and modern developer tooling to move from idea to working software faster.
+            </p>
+            <a class="secondary-btn dark" href="https://github.com/nicolous-peril/nyc-dev-days">View DevDay repo</a>
+          </div>
+          <div class="devday-gallery">
+            <img src="assets/events/devday/devday-1.png" alt="Group photo outside Microsoft" />
+            <img src="assets/events/devday/devday-2.jpeg" alt="Nick outside Microsoft building" />
+            <img src="assets/events/devday/devday-3.jpeg" alt="GitHub and Microsoft Agentic DevDay welcome screen" />
+            <img src="assets/events/devday/devday-4.jpeg" alt="Group selfie at Microsoft" />
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Nick Peril. Personal portfolio website.</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script>
+    document.querySelectorAll('[data-scroll-target]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var track = document.getElementById(button.dataset.scrollTarget);
+        var direction = Number(button.dataset.scrollDirection || 1);
+
+        if (track) {
+          track.scrollBy({
+            left: direction * Math.min(track.clientWidth, 640),
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
