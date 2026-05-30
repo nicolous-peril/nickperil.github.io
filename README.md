@@ -19,7 +19,7 @@ Core areas highlighted in this portfolio:
 
 ## Live Website
 
-**Portfolio:** [nickperil.netlify.app](https://nickperil.netlify.app)
+**Portfolio:** [nickperil.github.io](https://nickperil.github.io)
 
 ## Site Map
 
@@ -90,20 +90,19 @@ This is a lightweight static website built for speed, clarity, and simple deploy
 ├── README.md
 ├── LICENSE
 ├── netlify.toml
-└── nicolous-portfolio/
-    ├── index.html
-    ├── about.html
-    ├── projects.html
-    ├── events.html
-    ├── contact.html
-    ├── assets/
-    │   ├── events/
-    │   ├── profile/
-    │   ├── project-thumbs/
-    │   └── resume/
-    ├── css/
-    ├── images/
-    └── js/
+├── index.html
+├── about.html
+├── projects.html
+├── events.html
+├── contact.html
+├── assets/
+│   ├── events/
+│   ├── profile/
+│   ├── project-thumbs/
+│   └── resume/
+├── css/
+├── images/
+└── js/
 ```
 
 ## Local Preview
@@ -111,7 +110,6 @@ This is a lightweight static website built for speed, clarity, and simple deploy
 From the repository root:
 
 ```bash
-cd nicolous-portfolio
 python3 -m http.server 8080
 ```
 
@@ -129,7 +127,7 @@ Netlify settings:
 
 - **Branch:** `main`
 - **Build command:** leave blank
-- **Publish directory:** `nicolous-portfolio`
+- **Publish directory:** `.`
 
 ## About Me
 
