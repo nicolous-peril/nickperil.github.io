@@ -19,11 +19,7 @@ Core areas highlighted in this portfolio:
 
 ## Live Website
 
-Netlify deployment is configured for this repository.
-
-After the first Netlify deploy, add the public URL here:
-
-**Portfolio:** `https://your-netlify-site-name.netlify.app`
+**Portfolio:** [nickperil.netlify.app](https://nickperil.netlify.app)
 
 ## Site Map
 
