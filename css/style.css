@@ -292,6 +292,8 @@ a:focus {
   max-width: 720px;
   min-height: 0;
   padding: 12px 0 0;
+  text-align: justify;
+  text-align-last: auto;
 }
 
 .quote-mark {
@@ -315,11 +317,10 @@ a:focus {
 }
 
 .quote-close-wrap {
-  display: block;
+  display: inline;
   line-height: 0.75;
-  margin-top: -4px;
-  text-align: center;
-  width: 100%;
+  margin-left: 8px;
+  white-space: nowrap;
 }
 
 .hero-actions,
@@ -1128,13 +1129,15 @@ a:focus {
   }
 
   .cta-band .container {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 22px;
+    text-align: center;
   }
 
   .cta-band h2 {
@@ -1150,6 +1153,7 @@ a:focus {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 10px;
+    width: 100%;
   }
 
   .supporting-strand .strand-heading {
@@ -1219,7 +1223,7 @@ a:focus {
   }
 
   .quote-close-wrap {
-    margin-top: -2px;
+    margin-left: 6px;
   }
 
   .hero-profile {
