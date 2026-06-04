@@ -954,15 +954,6 @@ a:focus {
   gap: 18px;
 }
 
-.card-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 8px 16px;
-}
-
 .event-feature {
   -webkit-box-align: center;
       -ms-flex-align: center;
