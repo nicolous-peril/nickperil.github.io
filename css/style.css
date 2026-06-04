@@ -420,19 +420,11 @@ a:focus {
   max-width: 300px;
 }
 
-.intro-band {
-  background: #f7f8fb;
-  border-bottom: 1px solid #e5e7eb;
-  padding: 48px 0;
-}
-
-.intro-band h2,
 .section-title h2,
 .strand-heading h3,
 .project-card h3,
 .project-card h4,
 .story-section h2,
-.timeline-band h2,
 .contact-grid h2,
 .events-section h2,
 .event-grid h3,
@@ -443,10 +435,8 @@ a:focus {
   letter-spacing: 0;
 }
 
-.intro-band p,
 .project-card p,
 .story-section p,
-.timeline-band p,
 .contact-grid p,
 .events-section p {
   color: #4b5563;
@@ -694,8 +684,7 @@ a:focus {
 .project-row,
 .project-grid,
 .contact-grid,
-.event-grid,
-.timeline-band .container {
+.event-grid {
   display: grid;
   gap: 22px;
 }
@@ -725,7 +714,6 @@ a:focus {
 
 .project-card,
 .contact-grid article,
-.timeline-band article,
 .event-grid article {
   background: #ffffff;
   border: 1px solid #dfe4ec;
@@ -812,38 +800,6 @@ a:focus {
 .story-photo {
   aspect-ratio: 4 / 5;
   margin-bottom: 30px;
-}
-
-.timeline-band {
-  background: #111827;
-  padding: 58px 0;
-}
-
-.timeline-band .container {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.timeline-band article {
-  background: #ffffff;
-}
-
-.timeline-band span {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #fed11f;
-  border-radius: 50%;
-  color: #111827;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-weight: 700;
-  height: 36px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 14px;
-  width: 36px;
 }
 
 .cta-band {
@@ -1138,7 +1094,6 @@ a:focus {
   }
 
   .project-grid,
-  .timeline-band .container,
   .contact-grid,
   .event-feature,
   .event-grid,
@@ -1265,7 +1220,6 @@ a:focus {
   }
 
   .project-grid,
-  .timeline-band .container,
   .contact-grid,
   .event-feature,
   .event-grid,
