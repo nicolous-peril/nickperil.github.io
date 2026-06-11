@@ -1266,6 +1266,61 @@ a:focus {
     grid-template-columns: 1fr;
   }
 
+  #data .project-grid,
+  #cloud .project-grid {
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #data .project-card,
+  #cloud .project-card {
+    min-height: 0;
+    padding: 12px;
+  }
+
+  #data .project-thumb,
+  #cloud .project-thumb {
+    aspect-ratio: 4 / 3;
+    margin-bottom: 12px;
+  }
+
+  #data .project-card span,
+  #cloud .project-card span {
+    font-size: 10px;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+
+  #data .project-card h3,
+  #cloud .project-card h3 {
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+  }
+
+  #data .project-card p,
+  #cloud .project-card p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  #data .project-card a,
+  #cloud .project-card a {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  .devday-gallery {
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .citi-gallery-main {
+    grid-column: 1 / -1;
+  }
+
   .event-story,
   .event-gallery {
     padding: 18px;
