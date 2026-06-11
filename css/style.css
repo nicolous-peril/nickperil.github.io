@@ -1046,7 +1046,7 @@ a:focus {
 
 .devday-story {
   grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr);
-  margin-bottom: 0;
+  margin-bottom: 34px;
 }
 
 .devday-gallery {
@@ -1058,6 +1058,39 @@ a:focus {
 .devday-gallery img {
   aspect-ratio: 4 / 3;
   border: 1px solid #e5e7eb;
+}
+
+.citi-story {
+  margin-bottom: 0;
+}
+
+.citi-gallery-main {
+  grid-column: 1 / -1;
+}
+
+.citi-gallery .citi-gallery-main {
+  aspect-ratio: 16 / 9;
+  object-position: center 42%;
+}
+
+.event-takeaways {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 8px;
+}
+
+.event-takeaways span {
+  background: #f7f8fb;
+  border: 1px solid #dfe4ec;
+  border-radius: 8px;
+  color: #374151;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 8px 10px;
 }
 
 .site-footer {
