@@ -1073,6 +1073,10 @@ a:focus {
   object-position: center 42%;
 }
 
+.citi-gallery .citi-panel-photo {
+  object-position: center bottom;
+}
+
 .event-takeaways {
   display: -webkit-box;
   display: -ms-flexbox;
